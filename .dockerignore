@@ -1,0 +1,9 @@
+/.env
+/conf.d/
+
+/.vscode/
+/.github/
+/.gitignore
+
+/Dockerfile
+/docker-compose.yml

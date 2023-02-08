@@ -1,0 +1,10 @@
+services:
+  kolan:
+    build: .
+    env_file: .env
+    restart: always
+  nginx:
+    image: nginx
+    ports: [8000:80]
+    restart: always
+    volumes: [ ./conf.d:/etc/nginx/conf.d ]
