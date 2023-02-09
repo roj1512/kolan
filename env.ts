@@ -5,4 +5,5 @@ loadSync({ export: true });
 
 export default z.object({
   MONGODB_URI: z.string(),
+  SECRET: z.string(),
 }).parse(Deno.env.toObject());
