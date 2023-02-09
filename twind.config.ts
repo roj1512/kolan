@@ -22,6 +22,6 @@ export default {
     button:
       "uppercase w-full px-3 py-2 flex items-center gap-2.5 justify-center bg-kolan rounded-xl text-white disabled:cursor-default disabled:opacity-75 focus:outline-none",
     "small-button":
-      "uppercase text-kolan py-1 px-2 rounded-lg hover:bg-fur text-sm",
+      "uppercase text-kolan py-1 px-2 rounded-lg hover:bg-fur text-sm select-none",
   },
 } as Options;
